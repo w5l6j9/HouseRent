@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class OrderController {
 
 	@Autowired
-	private IOrderService sevice;
+	private  IOrderService sevice;
 	
 	@RequestMapping("/myorder")
 	public String toOrderPage() {
